@@ -6,6 +6,7 @@ public class MemoryScoreboard implements iScore {
 
     private int player1Matches = 0;
     private int player2Matches = 0;
+    private int turnsLeft = 15;
 
     @Override
     public void updatePlayer1Score() {
@@ -44,5 +45,12 @@ public class MemoryScoreboard implements iScore {
         return player2Matches;
     }
 
+    public int getTurnsLeft(){
+        return turnsLeft;
+    }
+
+    public void resetTurns(){
+        turnsLeft = 15;
+    }
     
 }
