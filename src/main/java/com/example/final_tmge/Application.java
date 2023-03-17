@@ -42,7 +42,7 @@ public class Application extends javafx.application.Application {
         }
         else if(GamePlay.getGameName().equals("Bejeweled")){
             title = "Bejeweled";
-            fxmlFile = ""; //TODO: BEJEWELED.FXML
+            fxmlFile = "BejeweledGameUI.fxml"; //TODO: BEJEWELED.FXML
         }
         else{
             title = "Tetris";
